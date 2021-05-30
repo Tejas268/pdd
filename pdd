@@ -32,7 +32,7 @@ if os.name == 'nt':
     import ctypes
 
     class _CursorInfo(ctypes.Structure):
-        _fields_ = [("size", ctypes.c_int),
+        _fields_ = [("size", ctypes.c_int)
                     ("visible", ctypes.c_byte)]
 
 # Global variables
